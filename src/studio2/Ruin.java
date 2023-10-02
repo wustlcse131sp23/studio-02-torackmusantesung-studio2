@@ -66,7 +66,7 @@ public class Ruin {
 			double a = (1-winChance)/winChance;
 			expectedRuin = (Math.pow(a,startAmount) - Math.pow(a,winLimit))/(1-Math.pow(a,winLimit));
 		}
-		System.out.println("Expected Ruin Rate: " +expectedRuin);
+		
 	}
 
 }
